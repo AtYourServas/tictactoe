@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 300px
+
+}
+
+.container section {
+  width: 33.33%;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.player1 {
+  background: red;
+}
+
+.player2 {
+  background: blue;
+}
