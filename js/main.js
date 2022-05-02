@@ -32,13 +32,62 @@ function takeTurn(target) {
             target.classList.remove('player1')
             player1Turn = true
         }
-        checkForWin()
+        checkForPlayer1Win()
+        checkForPlayer2Win()
     }
 }
 
-function checkForWin() {
+function checkForPlayer1Win() {
     if (grid[0].classList.contains('player1') && grid[1].classList.contains('player1') && grid[2].classList.contains('player1')) {
         alert('Player 1 Wins')
+    }
+    else if (grid[3].classList.contains('player1') && grid[4].classList.contains('player1') && grid[5].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[6].classList.contains('player1') && grid[7].classList.contains('player1') && grid[8].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[0].classList.contains('player1') && grid[3].classList.contains('player1') && grid[6].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[1].classList.contains('player1') && grid[4].classList.contains('player1') && grid[7].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[2].classList.contains('player1') && grid[5].classList.contains('player1') && grid[8].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[0].classList.contains('player1') && grid[4].classList.contains('player1') && grid[8].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+    else if (grid[2].classList.contains('player1') && grid[4].classList.contains('player1') && grid[6].classList.contains('player1')) {
+        alert('Player 1 Wins')
+    }
+}
+
+function checkForPlayer2Win() {
+    if (grid[0].classList.contains('player2') && grid[1].classList.contains('player2') && grid[2].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[3].classList.contains('player2') && grid[4].classList.contains('player2') && grid[5].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[6].classList.contains('player2') && grid[7].classList.contains('player2') && grid[8].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[0].classList.contains('player2') && grid[3].classList.contains('player2') && grid[6].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[1].classList.contains('player2') && grid[4].classList.contains('player2') && grid[7].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[2].classList.contains('player2') && grid[5].classList.contains('player2') && grid[8].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[0].classList.contains('player2') && grid[4].classList.contains('player2') && grid[8].classList.contains('player2')) {
+        alert('Player 2 Wins')
+    }
+    else if (grid[2].classList.contains('player2') && grid[4].classList.contains('player2') && grid[6].classList.contains('player2')) {
+        alert('Player 2 Wins')
     }
 }
 
