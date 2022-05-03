@@ -20,11 +20,11 @@
 }
 
 .player1 {
-  background: red;
+
 }
 
 .player2 {
-  background: blue;
+
 }
 
 h1, span, button {
@@ -50,4 +50,43 @@ span {
 
 .win-status {
   color: black;
+}
+
+.settings-container {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.player-settings{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.color {
+  max-width: 75px;
+  flex: 1 1 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+#red1, #red2, .red {
+  background: red;
+}
+
+#orange1, #orange2, .orange {
+  background: orange;
+}
+
+#yellow1, #yellow2, .yellow {
+  background: yellow;
+}
+
+#green1, #green2, .green {
+  background: green;
+}
+
+#blue1, #blue2, .blue {
+  background: blue;
 }
