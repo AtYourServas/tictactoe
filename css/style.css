@@ -18,14 +18,14 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 300px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .container section {
   width: 33.33%;
   border: 1px solid white;
-  height: 100px;
+  height: 150px;
 }
 
 .player1 {
@@ -76,7 +76,7 @@ span {
 .color {
   max-width: 75px;
   flex: 1 1 50px;
-  height: 50px;
+  height: 75px;
   border: 1px solid white;
 }
 
