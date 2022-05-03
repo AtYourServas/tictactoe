@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-.container {
+.container, .game-status {
   display: flex;
   flex: auto;
   width: 100%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 300px
-
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .container section {
@@ -25,4 +25,29 @@
 
 .player2 {
   background: blue;
+}
+
+h1, span, button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.game-status {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+}
+
+.turn-status {
+  color: green;
+}
+
+.win-status {
+  color: black;
 }
