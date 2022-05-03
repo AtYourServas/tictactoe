@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background: black;
+}
+
+h1, h2 {
+  color: gold;
+  font-weight: 700;
+}
+
 .container, .game-status {
   display: flex;
   flex: auto;
@@ -15,7 +24,7 @@
 
 .container section {
   width: 33.33%;
-  border: 1px solid black;
+  border: 1px solid white;
   height: 100px;
 }
 
@@ -49,7 +58,7 @@ span {
 }
 
 .win-status {
-  color: black;
+  color: white;
 }
 
 .settings-container {
@@ -68,25 +77,30 @@ span {
   max-width: 75px;
   flex: 1 1 50px;
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 #red1, #red2, .red {
-  background: red;
+  background: url(../img/grogu.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #orange1, #orange2, .orange {
-  background: orange;
+  background: url(../img/luke.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #yellow1, #yellow2, .yellow {
-  background: yellow;
+  background: url(../img/mando.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #green1, #green2, .green {
-  background: green;
+  background: url(../img/r2d2.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #blue1, #blue2, .blue {
-  background: blue;
+  background: url(../img/vader.jpg) no-repeat;
+  background-size: 100% 100%;
 }
